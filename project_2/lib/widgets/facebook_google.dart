@@ -11,15 +11,21 @@ class FacebookGoogle extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.end,
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
-        Image.asset(
-          "assets\\facebook 1.png",
-          height: 35,
-          width: 35,
+        Padding(
+          padding: const EdgeInsets.only(right: 20),
+          child: Image.asset(
+            "assets\\facebook 1.png",
+            height: 35,
+            width: 35,
+          ),
         ),
-        Image.asset(
-          "assets\\google-plus 1.png",
-          height: 35,
-          width: 35,
+        Padding(
+          padding: const EdgeInsets.only(right: 15),
+          child: Image.asset(
+            "assets\\google-plus 1.png",
+            height: 35,
+            width: 35,
+          ),
         )
       ],
     );

@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class ButtonIn extends StatelessWidget {
-  const ButtonIn({
-    super.key,
-    required this.nameText, required this.color,
-  });
+  ButtonIn(
+      {super.key,
+      required this.nameText,
+      required this.color,
+      this.colorText = Colors.white,this.screen});
   final String nameText;
+  Color colorText;
   final Color color;
+  var screen;
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
@@ -17,7 +20,12 @@ class ButtonIn extends StatelessWidget {
             backgroundColor: color,
             elevation: 7,
             fixedSize: Size(MediaQuery.of(context).size.width - 32, 50)),
-        onPressed: () {},
-        child: Text(nameText));
+        onPressed: () { Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return screen;
+                  }));},
+        child: Text(
+          nameText,
+          style: TextStyle(color: colorText),
+        ));
   }
 }

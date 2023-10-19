@@ -15,6 +15,11 @@ class _SignUPState extends State<SignUP> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
+        shadowColor: Colors.white,
+      ),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -50,8 +55,10 @@ class _SignUPState extends State<SignUP> {
             Padding(
               padding: const EdgeInsets.only(top: 30, left: 30),
               child: ButtonIn(
-                  nameText: "Sign In",
-                  color: const Color.fromRGBO(211, 84, 0, 1),screen: const SignIn(),),
+                nameText: "Sign In",
+                color: const Color.fromRGBO(211, 84, 0, 1),
+                screen: const SignIn(),
+              ),
             ),
             const Padding(
               padding: EdgeInsets.only(top: 20, left: 275),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_2/screen/sign_in.dart';
 import 'package:project_2/screen/sign_up.dart';
 import 'package:project_2/widgets/button_in.dart';
 import 'package:project_2/widgets/facebook_google.dart';
@@ -25,17 +26,18 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: 30, top: 60, right: 30),
+            padding: const EdgeInsets.only(left: 30, top: 60, right: 30),
             child: ButtonIn(
               nameText: 'Sign In',
-              color: Color.fromRGBO(211, 84, 0, 1),
+              color: const Color.fromRGBO(211, 84, 0, 1),
+              screen: const SignIn(),
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: 30, top: 20, right: 30),
+            padding: const EdgeInsets.only(left: 30, top: 20, right: 30),
             child: ButtonIn(
               nameText: 'Sign Up',
-              color: Color.fromRGBO(236, 240, 241, 1),
+              color: const Color.fromRGBO(236, 240, 241, 1),
               colorText: Colors.black,
               screen: const SignUP(),
             ),

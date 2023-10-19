@@ -11,9 +11,12 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Hello World!'),
-      ),
-    );
+        body: Column(
+      children: [
+        Image.asset("assets\hamburger 1.png"),
+        ElevatedButton(onPressed: () {}, child: Text("Sign In")),
+        ElevatedButton(onPressed: () {}, child: Text("Sign Up"))
+      ],
+    ));
   }
 }

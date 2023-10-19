@@ -17,3 +17,21 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/resturant.png
+    - assets/images/pizzas.png 
+    - assets/images/hamburger.png
+    - assets/images/burgers.png
+    - assets/images/bbq.png
+    - assets/images/profile_picture.png
+    - assets/icons/burger.png  
+    - assets/icons/clock.png
+    - assets/icons/coffee-cup.png
+    - assets/icons/dislike.png
+    - assets/icons/like.png
+    - assets/icons/person.png
+    - assets/icons/piece-of-cake.png
+    - assets/icons/pin.png
+    - assets/icons/potato-chips.png
+    - assets/icons/store.png
+    - assets/icons/shopping_list .png

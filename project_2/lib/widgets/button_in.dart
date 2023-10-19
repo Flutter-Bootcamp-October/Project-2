@@ -6,7 +6,8 @@ class ButtonIn extends StatelessWidget {
       {super.key,
       required this.nameText,
       required this.color,
-      this.colorText = Colors.white,this.screen});
+      this.colorText = Colors.white,
+      this.screen});
   final String nameText;
   Color colorText;
   final Color color;
@@ -19,10 +20,12 @@ class ButtonIn extends StatelessWidget {
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
             backgroundColor: color,
             elevation: 7,
-            fixedSize: Size(MediaQuery.of(context).size.width - 32, 50)),
-        onPressed: () { Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return screen;
-                  }));},
+            fixedSize: Size(MediaQuery.of(context).size.width - 60, 50)),
+        onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) {
+            return screen;
+          }));
+        },
         child: Text(
           nameText,
           style: TextStyle(color: colorText),

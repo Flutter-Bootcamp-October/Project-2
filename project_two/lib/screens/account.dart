@@ -6,8 +6,8 @@ class AccountScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.green,
-      body: Center(child: Text("Home")),
+      backgroundColor: Colors.red,
+      body: Center(child: Text("Account")),
     );
   }
 }

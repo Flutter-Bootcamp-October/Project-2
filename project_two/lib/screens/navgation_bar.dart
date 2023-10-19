@@ -29,14 +29,12 @@ class _NavigationState extends State<Navigation> {
           },
           items: [
             BottomNavigationBarItem(
-                icon: Image.asset('project_two/lib/assets/icons/store.png'),
-                label: "Home"),
+                icon: Image.asset('lib/assets/icons/store.png'), label: "Home"),
             BottomNavigationBarItem(
-                icon: Image.asset(
-                    'project_two/lib/assets/icons/shopping_list .png'),
+                icon: Image.asset('lib/assets/icons/shopping_list .png'),
                 label: "Order"),
             BottomNavigationBarItem(
-                icon: Image.asset('project_two/lib/assets/icons/person.png'),
+                icon: Image.asset('lib/assets/icons/person.png'),
                 label: "Profile")
           ]),
     );

@@ -7,7 +7,7 @@ class TexField extends StatelessWidget {
     required this.tru,
   });
   final String hintext;
-  var tru = false;
+  final bool tru;
   @override
   Widget build(BuildContext context) {
     return Padding(

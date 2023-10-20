@@ -1,3 +1,4 @@
+import '../home/custom_bottom_navigation_bar.dart';
 import 'components/exports.dart';
 import 'package:flutter/material.dart';
 
@@ -51,7 +52,11 @@ class SignUpScreen extends StatelessWidget {
               buttonColor: signInButtonColor,
               textColor: signInTextColor,
               func: () {
-                //Navigator.push(context, MaterialPageRoute(builder: ));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const CustomBottomNavigationBar(),
+                    ));
               },
             ),
             const SizedBox(height: 16),

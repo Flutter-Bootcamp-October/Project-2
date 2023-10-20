@@ -15,8 +15,6 @@ class CategoryButtonsList extends StatelessWidget {
           children: [
             Column(children: [
               CategoryButton(
-                iconColor: Color(0xFF000000),
-                buttonColor: Color(0xFFECF0F1),
                 iconPath: 'lib/assets/icons/coffee-cup.png',
               ),
               Text(
@@ -26,8 +24,6 @@ class CategoryButtonsList extends StatelessWidget {
             ]),
             Column(children: [
               CategoryButton(
-                iconColor: Color(0xFFFFFFFF),
-                buttonColor: Color(0xFFD35400),
                 iconPath: 'lib/assets/icons/burger.png',
               ),
               Text(
@@ -37,8 +33,6 @@ class CategoryButtonsList extends StatelessWidget {
             ]),
             Column(children: [
               CategoryButton(
-                iconColor: Color(0xFF000000),
-                buttonColor: Color(0xFFECF0F1),
                 iconPath: 'lib/assets/icons/piece-of-cake.png',
               ),
               Text(
@@ -48,8 +42,6 @@ class CategoryButtonsList extends StatelessWidget {
             ]),
             Column(children: [
               CategoryButton(
-                iconColor: Color(0xFF000000),
-                buttonColor: Color(0xFFECF0F1),
                 iconPath: 'lib/assets/icons/potato-chips.png',
               ),
               Text(

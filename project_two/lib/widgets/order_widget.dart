@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_two/widgets/evaluation.dart';
 
 class Order extends StatefulWidget {
   const Order({super.key});
@@ -16,35 +17,31 @@ class _OrderState extends State<Order> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Image.asset('lib/assets/images/order_picture.png'),
-          Column(
+          const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('Dogmie jagong tutung',
+              Text('Dogmie jagong tutung',
                   style: TextStyle(
                       fontFamily: 'Poppins',
                       fontSize: 14,
                       fontWeight: FontWeight.w700)),
               Row(
                 children: [
-                  Image.asset('lib/assets/icons/like.png'),
-                  const Text("999+ |"),
-                  Image.asset('lib/assets/icons/dislike.png'),
-                  const Text(" 93+"),
+                  Icon(size: 12, Icons.thumb_up_alt_outlined),
+                  Text(" 999+ |"),
+                  Icon(size: 12, Icons.thumb_down_alt_outlined),
+                  Text(" 93+"),
                 ],
               ),
-              const Text("\$99.99",
+              Text("\$99.99",
                   style: TextStyle(
                       fontFamily: 'Popppins',
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
-                      color: Color(0xFF2ECC71)))
+                      color: Color(0xFF2ECC71))),
             ],
           ),
-          Row(children: [
-            //make clickable
-            Image.asset('lib/assets/icons/like.png'),
-            Image.asset('lib/assets/icons/dislike.png'),
-          ])
+          const EvaluationButtons()
         ],
       ),
     );

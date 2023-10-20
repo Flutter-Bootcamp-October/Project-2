@@ -1,27 +1,37 @@
 import 'package:flutter/material.dart';
+import 'package:project_two/widgets/menu_item.dart';
 
 class MenuList extends StatelessWidget {
   const MenuList({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: EdgeInsets.all(8.0),
         child: Row(
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.asset('lib/assets/images/burgers.png'),
+              padding: EdgeInsets.all(8.0),
+              child: MenuItem(
+                  imagePath: 'lib/assets/images/burger_menu.png',
+                  itemColor: Color(0xFFADD5F0),
+                  itemName: "Burgers"),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.asset('lib/assets/images/pizzas.png'),
+              padding: EdgeInsets.all(8.0),
+              child: MenuItem(
+                  imagePath: 'lib/assets/images/pizza_menu.png',
+                  itemColor: Color(0xFFDCC4E5),
+                  itemName: "Pizza"),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.asset('lib/assets/images/bbq.png'),
+              padding: EdgeInsets.all(8.0),
+              child: MenuItem(
+                  imagePath: 'lib/assets/images/bbq_menu.png',
+                  itemColor: Color(0xFFADD5F0),
+                  itemName: "BBQ"),
             ),
           ],
         ),

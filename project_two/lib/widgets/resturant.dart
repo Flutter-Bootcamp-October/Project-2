@@ -25,7 +25,10 @@ class Resturant extends StatelessWidget {
             ),
             const Row(children: [
               ImageIcon(AssetImage('lib/assets/icons/pin.png')),
-              Text('13 th Street, 46 W 12th St, NY')
+              Text(
+                '13 th Street, 46 W 12th St, NY',
+                style: TextStyle(color: Colors.black),
+              )
             ]),
             const Row(
               children: [

@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:project_two/extentions.dart';
 
-class CategoryButton extends StatelessWidget {
-  const CategoryButton(
-      {super.key,
-      required this.iconColor,
-      required this.buttonColor,
-      required this.iconPath});
-  final Color iconColor;
+class CategoryButton extends StatefulWidget {
+  const CategoryButton({super.key, required this.iconPath});
   final String iconPath;
-  final Color buttonColor;
+
+  @override
+  State<CategoryButton> createState() => _CategoryButtonState();
+}
+
+class _CategoryButtonState extends State<CategoryButton> {
+  Color iconColor = Colors.black;
+
+  Color buttonColor = const Color(0xFFECF0F1);
 
   @override
   Widget build(BuildContext context) {
@@ -29,9 +32,13 @@ class CategoryButton extends StatelessWidget {
               style: ButtonStyle(
                   backgroundColor:
                       MaterialStateColor.resolveWith((states) => buttonColor)),
-              onPressed: () {},
-              child:
-                  ImageIcon(size: 30, color: iconColor, AssetImage(iconPath))),
+              onPressed: () {
+                buttonColor = const Color(0xFFD35400);
+                iconColor = Colors.white;
+                setState(() {});
+              },
+              child: ImageIcon(
+                  size: 30, color: iconColor, AssetImage(widget.iconPath))),
         ),
       ),
     );

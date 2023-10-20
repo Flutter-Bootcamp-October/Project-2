@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_two/screens/starter.dart';
 import 'package:project_two/widgets/my_button.dart';
 import 'package:project_two/widgets/profile_items_list.dart';
 
@@ -27,10 +28,18 @@ class AccountScreen extends StatelessWidget {
                 child: Text('+1 11229382748'),
               ),
               const ProfileItemList(),
-              const MyButton(
-                  buttonTitle: 'Sign Out',
-                  buttonColor: Color(0xFFECF0F1),
-                  textColor: Colors.black)
+              GestureDetector(
+                onTap: () {
+                  Navigator.pushReplacement(context,
+                      MaterialPageRoute(builder: (BuildContext context) {
+                    return const StarterScreen();
+                  }));
+                },
+                child: const MyButton(
+                    buttonTitle: 'Sign Out',
+                    buttonColor: Color(0xFFECF0F1),
+                    textColor: Colors.black),
+              )
             ],
           )),
         ));

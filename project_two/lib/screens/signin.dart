@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project_two/screens/navgation_bar.dart';
+import 'package:project_two/screens/starter.dart';
 import 'package:project_two/widgets/my_button.dart';
 import 'package:project_two/widgets/my_textfield.dart';
 
@@ -8,6 +10,19 @@ class SignInScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+            elevation: 0,
+            backgroundColor: Colors.white,
+            leading: IconButton(
+                color: Colors.black,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const StarterScreen()),
+                  );
+                },
+                icon: const Icon(Icons.arrow_back_ios_new_rounded))),
         backgroundColor: Colors.white,
         body: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -36,15 +51,24 @@ class SignInScreen extends StatelessWidget {
                 hint: '   Password',
                 hideInput: true,
               ),
-              const MyButton(
-                  buttonTitle: "sign in",
-                  buttonColor: Color(0xFFD35400),
-                  textColor: Colors.white),
+              GestureDetector(
+                onTap: () {
+                  Navigator.pushReplacement(context,
+                      MaterialPageRoute(builder: (BuildContext context) {
+                    return const Navigation();
+                  }));
+                },
+                child: const MyButton(
+                    buttonTitle: "sign in",
+                    buttonColor: Color(0xFFD35400),
+                    textColor: Colors.white),
+              ),
               TextButton(
                   onPressed: () {},
                   child: const Align(
                       alignment: Alignment.bottomRight,
                       child: Text("Forgot password?"))),
+              // const ScaffoldBottom()
             ],
           ),
         ));

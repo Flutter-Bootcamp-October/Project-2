@@ -29,11 +29,11 @@ class SignInScreen extends StatelessWidget {
                 ),
               ),
               const MyTextField(
-                hint: 'Username',
+                hint: '   Username',
                 hideInput: false,
               ),
               const MyTextField(
-                hint: 'Password',
+                hint: '   Password',
                 hideInput: true,
               ),
               const MyButton(

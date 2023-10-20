@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_two/extentions.dart';
 import 'package:project_two/widgets/my_button.dart';
+import 'package:project_two/widgets/scaffold_bottom.dart';
 
 class Starter extends StatelessWidget {
   const Starter({super.key});
@@ -28,6 +29,8 @@ class Starter extends StatelessWidget {
             buttonColor: Color(0xFFECF0F1),
             textColor: Color(0xFF000000),
           ),
+          const SizedBox(height: 100),
+          const ScaffoldBottom()
         ]),
       )),
     );

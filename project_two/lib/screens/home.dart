@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:project_two/extentions.dart';
 import 'package:project_two/widgets/category_selection_buttons_list.dart';
 import 'package:project_two/widgets/food_menu_list.dart';
-import 'package:project_two/widgets/resturant.dart';
 import 'package:project_two/widgets/resturant_list.dart';
 import 'package:project_two/widgets/search_bar.dart';
 

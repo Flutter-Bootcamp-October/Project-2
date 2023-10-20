@@ -17,12 +17,10 @@ class Starter extends StatelessWidget {
                 bottom: context.getHeightSizing(number: 0.05)),
             child: Image.asset('lib/assets/images/hamburger.png'),
           ),
-          const InkWell(
-            child: SignButton(
-              buttonTitle: "Sign In",
-              buttonColor: Color(0xFFD35400),
-              textColor: Color(0xFFFFFFFF),
-            ),
+          const SignButton(
+            buttonTitle: "Sign In",
+            buttonColor: Color(0xFFD35400),
+            textColor: Color(0xFFFFFFFF),
           ),
           const SignButton(
             buttonTitle: "Sign Up",

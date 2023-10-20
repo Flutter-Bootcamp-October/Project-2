@@ -3,6 +3,7 @@ import 'package:project_two/screens/navgation_bar.dart';
 import 'package:project_two/screens/starter.dart';
 import 'package:project_two/widgets/my_button.dart';
 import 'package:project_two/widgets/my_textfield.dart';
+import 'package:project_two/widgets/scaffold_bottom.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
@@ -16,32 +17,29 @@ class SignUpScreen extends StatelessWidget {
             leading: IconButton(
                 color: Colors.black,
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const StarterScreen()),
-                  );
+                  Navigator.pushReplacement(context,
+                      MaterialPageRoute(builder: (BuildContext context) {
+                    return const StarterScreen();
+                  }));
                 },
                 icon: const Icon(Icons.arrow_back_ios_new_rounded))),
         backgroundColor: Colors.white,
-        body: Padding(
-          padding: const EdgeInsets.all(16.0),
+        body: SafeArea(
           child: Column(
             children: [
               const SizedBox(
-                height: 262,
+                height: 110,
               ),
-              const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text("Sign Up",
-                      style: TextStyle(
-                          color: Colors.black,
-                          fontFamily: "Poppins",
-                          fontSize: 24,
-                          fontWeight: FontWeight.w700)),
-                ),
+              const Align(
+                widthFactor: 3.8,
+                heightFactor: 2,
+                alignment: Alignment.centerLeft,
+                child: Text("Sign Up",
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontFamily: "Poppins",
+                        fontSize: 24,
+                        fontWeight: FontWeight.w700)),
               ),
               const MyTextField(
                 hint: '   Enter Username',
@@ -72,7 +70,8 @@ class SignUpScreen extends StatelessWidget {
                   child: const Align(
                       alignment: Alignment.bottomRight,
                       child: Text("Forgot password?"))),
-              // const ScaffoldBottom()
+              const SizedBox(height: 110),
+              const ScaffoldBottom()
             ],
           ),
         ));

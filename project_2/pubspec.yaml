@@ -18,7 +18,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets\Ellipse 6.png
+    - assets\Ellipse.png
     - assets\hamburger 1.png
     - assets\image (1).png
     - assets\image (2).png

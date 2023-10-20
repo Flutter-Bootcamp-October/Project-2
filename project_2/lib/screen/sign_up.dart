@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_2/methods/ap_bar.dart';
 import 'package:project_2/screen/sign_in.dart';
 import 'package:project_2/widgets/button_in.dart';
 import 'package:project_2/widgets/facebook_google.dart';
@@ -15,11 +16,7 @@ class _SignUPState extends State<SignUP> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        foregroundColor: Colors.black,
-        shadowColor: Colors.white,
-      ),
+      appBar: apbar(title: ""),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

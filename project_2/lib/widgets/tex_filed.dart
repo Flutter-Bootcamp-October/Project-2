@@ -15,17 +15,18 @@ class TexField extends StatelessWidget {
       child: TextField(
         obscureText: tru,
         decoration: InputDecoration(
-            fillColor: Color.fromRGBO(236, 240, 241, 1),
+            prefixIcon: const Icon(Icons.search),
+            fillColor: const Color.fromRGBO(236, 240, 241, 1),
             filled: true,
             hintText: hintext,
             enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(30),
                 borderSide:
-                    BorderSide(color: Color.fromRGBO(236, 240, 241, 1))),
+                    const BorderSide(color: Color.fromRGBO(236, 240, 241, 1))),
             focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(30),
                 borderSide:
-                    BorderSide(color: Color.fromRGBO(236, 240, 241, 1)))),
+                    const BorderSide(color: Color.fromRGBO(236, 240, 241, 1)))),
       ),
     );
   }

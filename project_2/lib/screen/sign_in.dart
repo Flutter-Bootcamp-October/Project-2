@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project_2/methods/ap_bar.dart';
+import 'package:project_2/screen/nav_bar.dart';
 import 'package:project_2/widgets/button_in.dart';
 import 'package:project_2/widgets/facebook_google.dart';
 import 'package:project_2/widgets/tex_filed.dart';
@@ -14,11 +16,7 @@ class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        foregroundColor: Colors.black,
-        shadowColor: Colors.white,
-      ),
+      appBar: apbar(title: ""),
       body: SafeArea(
           child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -41,8 +39,10 @@ class _SignInState extends State<SignIn> {
           Padding(
             padding: const EdgeInsets.only(top: 30, left: 30),
             child: ButtonIn(
-                nameText: 'Sign In',
-                color: const Color.fromRGBO(211, 84, 0, 1)),
+              nameText: 'Sign In',
+              color: const Color.fromRGBO(211, 84, 0, 1),
+              screen: const NavBar(),
+            ),
           ),
           const Padding(
             padding: EdgeInsets.only(top: 20, left: 275),

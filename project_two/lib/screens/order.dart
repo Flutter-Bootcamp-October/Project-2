@@ -13,6 +13,7 @@ class _OrderScreenState extends State<OrderScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           elevation: 0,
           backgroundColor: Colors.white,
@@ -25,7 +26,6 @@ class _OrderScreenState extends State<OrderScreen> {
                 color: Colors.black),
           ),
         ),
-        backgroundColor: Colors.white,
         body: const Center(
           child: Column(children: [
             Order(),

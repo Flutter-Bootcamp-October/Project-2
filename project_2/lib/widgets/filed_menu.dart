@@ -1,20 +1,15 @@
 import 'package:flutter/material.dart';
 
-class TexField extends StatelessWidget {
-  TexField({
-    super.key,
-    required this.hintext,
-    required this.tru,
-  });
+class FiledMenu extends StatelessWidget {
+  const FiledMenu({super.key, required this.hintext});
   final String hintext;
-  final bool tru;
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(left: 30, right: 30),
       child: TextField(
-        obscureText: tru,
         decoration: InputDecoration(
+            prefixIcon: const Icon(Icons.search),
             fillColor: const Color.fromRGBO(236, 240, 241, 1),
             filled: true,
             hintText: hintext,

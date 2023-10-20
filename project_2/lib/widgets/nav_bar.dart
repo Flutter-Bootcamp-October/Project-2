@@ -12,7 +12,7 @@ class NavBar extends StatefulWidget {
 
 class _NavBarState extends State<NavBar> {
   int select = 0;
-  List<Widget> screens = [const Profile(), const Order(), const Review()];
+  List<Widget> screens = [const Order(), const Review(), const Profile()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,9 +24,13 @@ class _NavBarState extends State<NavBar> {
             },
             items: const [
               BottomNavigationBarItem(
-                  icon: Icon(Icons.person_sharp), label: 'Profile'),
-              BottomNavigationBarItem(icon: Icon(Icons.menu), label: 'Order'),
-              BottomNavigationBarItem(icon: Icon(Icons.home), label: 'reviw')
+                  icon: ImageIcon(AssetImage("assets\\store 1.png")),
+                  label: 'Home'),
+              BottomNavigationBarItem(
+                  icon: ImageIcon(AssetImage("assets\\Group.png")),
+                  label: 'Oder'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.person_sharp), label: 'Profile')
             ]),
         body: screens[select]);
   }

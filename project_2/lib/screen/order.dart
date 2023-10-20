@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_types_as_parameter_names, non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 import 'package:project_2/widgets/filed_menu.dart';
 import 'package:project_2/widgets/food_container.dart';
@@ -57,45 +59,47 @@ class _OrderState extends State<Order> {
                 ),
               ),
             ),
-            const Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  'Food menu',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
-                ),
-                Text(
-                  'View All',
-                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.w400),
-                ),
-              ],
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 20),
-              child: SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Row(
-                    children: [
-                      FoodContainr(
-                          name: 'Burger',
-                          color: const Color.fromRGBO(52, 152, 219, 0.3),
-                          image: Image.asset("assets\\image (1).png")),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 15),
-                        child: FoodContainr(
-                            name: 'Pizza',
-                            color: const Color.fromRGBO(155, 89, 182, 0.3),
-                            image: Image.asset("assets\\image.png")),
-                      ),
-                      FoodContainr(
-                          name: 'BBQ',
-                          color: const Color.fromRGBO(52, 152, 219, 0.3),
-                          image: Image.asset("assets\\image (2).png"))
-                    ],
-                  )),
-            ),
             const Padding(
-              padding: EdgeInsets.only(bottom: 20),
+              padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Food menu',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+                  ),
+                  Text(
+                    'View All',
+                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w400),
+                  ),
+                ],
+              ),
+            ),
+            SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    FoodContainr(
+                        name: 'Burger',
+                        color: const Color.fromRGBO(52, 152, 219, 0.3),
+                        image: Image.asset("assets\\image1.png")),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 15),
+                      child: FoodContainr(
+                          name: 'Pizza',
+                          color: const Color.fromRGBO(155, 89, 182, 0.3),
+                          image: Image.asset("assets\\image2.png")),
+                    ),
+                    FoodContainr(
+                        name: 'BBQ',
+                        color: const Color.fromRGBO(52, 152, 219, 0.3),
+                        image: Image.asset(
+                          "assets\\image3.png",
+                        ))
+                  ],
+                )),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

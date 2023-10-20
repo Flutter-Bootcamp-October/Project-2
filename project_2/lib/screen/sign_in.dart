@@ -11,6 +11,7 @@ class SignIn extends StatefulWidget {
   @override
   State<SignIn> createState() => _SignInState();
 }
+
 class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
@@ -29,14 +30,17 @@ class _SignInState extends State<SignIn> {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 30),
+            //calling TexFiled widget
             child: TexField(hintext: 'Enter Username', tru: false),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 20),
+            //calling TexFiled widget
             child: TexField(hintext: 'Enter Password', tru: true),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 30, left: 30),
+            //calling ButtonIn widget
             child: ButtonIn(
               nameText: 'Sign In',
               color: const Color.fromRGBO(211, 84, 0, 1),
@@ -50,21 +54,21 @@ class _SignInState extends State<SignIn> {
               style: TextStyle(fontSize: 14),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 111),
-            child: Row(
-              children: [
-                Container(
-                  height: 1,
-                  width: MediaQuery.of(context).size.width * 0.7,
-                  color: const Color.fromRGBO(52, 73, 94, 0.3),
-                ),
-                const Text("Or connect with")
-              ],
-            ),
+          const SizedBox(
+            height: 170,
+          ),
+          Row(
+            children: [
+              Container(
+                height: 1,
+                width: MediaQuery.of(context).size.width * 0.7,
+                color: const Color.fromRGBO(52, 73, 94, 0.3),
+              ),
+              const Text("Or connect with")
+            ],
           ),
           const Padding(
-            padding: EdgeInsets.only(top: 40),
+            padding: EdgeInsets.only(top: 30),
             child: FacebookGoogle(),
           ),
         ],

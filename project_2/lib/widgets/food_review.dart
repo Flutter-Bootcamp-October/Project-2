@@ -31,7 +31,7 @@ class _FoodReviewState extends State<FoodReview> {
             Row(
               children: [
                 Text(
-                  "99.99 ",
+                  "\$99.99 ",
                   style: TextStyle(fontSize: 14, color: Colors.green),
                 )
               ],

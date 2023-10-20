@@ -3,7 +3,7 @@ import 'package:project_2/methods/ap_bar.dart';
 import 'package:project_2/screen/order.dart';
 import 'package:project_2/screen/profile.dart';
 import 'package:project_2/widgets/button_in.dart';
-import 'package:project_2/widgets/food_menu.dart';
+import 'package:project_2/widgets/food_review.dart';
 import 'package:project_2/widgets/nav_bar.dart';
 
 class Review extends StatefulWidget {
@@ -29,12 +29,14 @@ class _ReviewState extends State<Review> {
                 shrinkWrap: true,
                 itemCount: 5,
                 itemBuilder: (BuildContext, int index) {
+
                   return const FoodReview();
                 }),
           ),
           const SizedBox(
             height: 100,
           ),
+          //calling ButtonIn widget
           ButtonIn(
             nameText: "Send",
             color: const Color.fromRGBO(211, 84, 0, 1),

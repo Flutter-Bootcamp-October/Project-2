@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
-class SignButton extends StatelessWidget {
-  const SignButton(
+class MyButton extends StatelessWidget {
+  const MyButton(
       {super.key,
       required this.buttonTitle,
       required this.buttonColor,

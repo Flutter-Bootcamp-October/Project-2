@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_two/extentions.dart';
-import 'package:project_two/widgets/sign_button.dart';
+import 'package:project_two/widgets/my_button.dart';
 
 class Starter extends StatelessWidget {
   const Starter({super.key});
@@ -17,12 +17,12 @@ class Starter extends StatelessWidget {
                 bottom: context.getHeightSizing(number: 0.05)),
             child: Image.asset('lib/assets/images/hamburger.png'),
           ),
-          const SignButton(
+          const MyButton(
             buttonTitle: "Sign In",
             buttonColor: Color(0xFFD35400),
             textColor: Color(0xFFFFFFFF),
           ),
-          const SignButton(
+          const MyButton(
             buttonTitle: "Sign Up",
             buttonColor: Color(0xFFECF0F1),
             textColor: Color(0xFF000000),

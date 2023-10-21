@@ -9,6 +9,8 @@ This project is not responsive to various mobile screen sizes; it is designed to
 ##Screenshots & guide:
 
 - SignInUp screen:
+<img src="[app-screenshot.png](https://github.com/LMogdad/Project-2/assets/87881470/3dc1e01b-ac42-4278-bbea-c945db0552c5)" width="400" height="200" alt="App Screenshot">
+
 ![image](https://github.com/LMogdad/Project-2/assets/87881470/3dc1e01b-ac42-4278-bbea-c945db0552c5)
 
 - SignIn screen:

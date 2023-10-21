@@ -1,0 +1,35 @@
+name: food_delivery
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+   - assets/Images/hamburger.png
+   - assets/Images/facebook.png
+   - assets/Images/googleplus.png
+   - assets/Images/userprofile.png
+   - assets/Images/order.png
+   - assets/Images/like.png
+   - assets/Images/notlike.png
+   - assets/Images/coffeecup.png
+   - assets/Images/potato-chips .png
+   - assets/Images/piece-of-cake .png
+   - assets/Images/burger.png
+   - assets/Images/menuburger.png
+   - assets/Images/pizaa.png
+   - assets/Images/bbq.png
+   - assets/Images/menu.png
+  uses-material-design: true

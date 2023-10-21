@@ -33,7 +33,7 @@ class MenuItem extends StatelessWidget {
                       fontWeight: FontWeight.w700),
                 ),
               ),
-              Positioned(left: 20, top: 27, child: Image.asset(imagePath))
+              Positioned(left: 20, top: 51, child: Image.asset(imagePath))
             ],
           )),
     );

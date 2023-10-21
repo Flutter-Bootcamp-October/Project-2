@@ -30,10 +30,11 @@ class AccountScreen extends StatelessWidget {
               const ProfileItemList(),
               GestureDetector(
                 onTap: () {
-                  Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (BuildContext context) {
-                    return const StarterScreen();
-                  }));
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const StarterScreen()),
+                      ModalRoute.withName("/Starter"));
                 },
                 child: const MyButton(
                     buttonTitle: 'Sign Out',

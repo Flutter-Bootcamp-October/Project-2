@@ -17,10 +17,11 @@ class SignUpScreen extends StatelessWidget {
             leading: IconButton(
                 color: Colors.black,
                 onPressed: () {
-                  Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (BuildContext context) {
-                    return const StarterScreen();
-                  }));
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const StarterScreen()),
+                      ModalRoute.withName("/Starter"));
                 },
                 icon: const Icon(Icons.arrow_back_ios_new_rounded))),
         backgroundColor: Colors.white,
@@ -55,10 +56,11 @@ class SignUpScreen extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const Navigation()),
-                  );
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const Navigation()),
+                      ModalRoute.withName("/Starter"));
                 },
                 child: const MyButton(
                     buttonTitle: "sign in",

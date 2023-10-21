@@ -11,9 +11,9 @@ class CategoryButton extends StatefulWidget {
 
 class _CategoryButtonState extends State<CategoryButton> {
   Color iconColor = Colors.black;
-
   Color buttonColor = const Color(0xFFECF0F1);
-
+  Color iconColorSelected = Colors.white;
+  Color buttonColorSelected = const Color(0xFFD35400);
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -33,8 +33,13 @@ class _CategoryButtonState extends State<CategoryButton> {
                   backgroundColor:
                       MaterialStateColor.resolveWith((states) => buttonColor)),
               onPressed: () {
-                buttonColor = const Color(0xFFD35400);
-                iconColor = Colors.white;
+                if (buttonColor != buttonColorSelected) {
+                  buttonColor = buttonColorSelected;
+                  iconColor = iconColorSelected;
+                } else {
+                  iconColor = Colors.black;
+                  buttonColor = const Color(0xFFECF0F1);
+                }
                 setState(() {});
               },
               child: ImageIcon(

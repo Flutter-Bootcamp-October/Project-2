@@ -23,7 +23,7 @@ class _NavigationState extends State<Navigation> {
     return Scaffold(
       body: list[selected],
       bottomNavigationBar: BottomNavigationBar(
-          selectedItemColor: selectedColor, //color brightness?
+          selectedItemColor: selectedColor,
           selectedIconTheme: IconThemeData(color: selectedColor),
           currentIndex: selected,
           onTap: (index) {
@@ -32,14 +32,16 @@ class _NavigationState extends State<Navigation> {
           },
           items: const [
             BottomNavigationBarItem(
-                icon: ImageIcon(AssetImage('lib/assets/icons/store.png')),
+                icon: ImageIcon(
+                    size: 20, AssetImage('lib/assets/icons/store.png')),
                 label: "Home"),
             BottomNavigationBarItem(
                 icon: ImageIcon(
-                    AssetImage('lib/assets/icons/shopping_list .png')),
+                    size: 20, AssetImage('lib/assets/icons/shopping_list.png')),
                 label: "Order"),
             BottomNavigationBarItem(
-                icon: ImageIcon(AssetImage('lib/assets/icons/person.png')),
+                icon: ImageIcon(
+                    size: 20, AssetImage('lib/assets/icons/person.png')),
                 label: "Profile")
           ]),
     );

@@ -1,36 +1,29 @@
 # Project-2
-## Details:
-1. Implement the given design in an app using Flutter.
-2. You must utilize the following widgets:
-   - Image
-   - AppBar
-   - TextField
-   - Row
-   - Column
-   - Icon
-   - Button
-   - ListView or other related widgets
-3. Provide navigation between the pages.
-  
+## first page
+this is the page when opining the app 
+![image](https://github.com/senshi900/Project-2/assets/129005111/f61f093d-81b2-41fc-b9a5-e0e4d09a5d02)
 
-## Design Link:
-<a href="https://www.figma.com/file/9X5260T0MpVWxSgGr1f43y/Food-Delivery---Mobile-App-Design-(Community)?type=design&node-id=0%3A1&mode=design&t=vsewM5c2BJ6UKdX7-1"> Figma Link</a>
+## Sign Up page
+when presing login 
+![image](https://github.com/senshi900/Project-2/assets/129005111/d0dd8f7e-08ce-4874-a09d-833677968f72)
 
-## Delivery Requirements:
-1. **Project Structure:** Create a new Flutter project and organize its structure appropriately. Set up the necessary folders and files, and ensure a clean and organized project layout.
-2. **Clean Code**: Write clear and well-organized code. Use meaningful variable and function names, Well-structured and easily maintainable code.
+## Sign in page
 
+when presing sign in 
+![image](https://github.com/senshi900/Project-2/assets/129005111/f7746f09-bef8-4593-bb70-0690e8cb1d23)
 
-## Submission:
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
+## profile page
+after sign in this is the profile page
+![image](https://github.com/senshi900/Project-2/assets/129005111/29d1448d-06c3-4033-9351-3a1abbd7a569)
+
+## order page 
+![image](https://github.com/senshi900/Project-2/assets/129005111/093b98bf-0d24-4eb6-9f24-42750fc6db7f)
+
+## home page
+![image](https://github.com/senshi900/Project-2/assets/129005111/635c2c1d-aca4-436e-9e3f-73a6ad8b0f29)
 
 
-## Deadline: 
-22/10/2023  9:59 AM
+
+
+
+

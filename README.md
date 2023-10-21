@@ -6,6 +6,8 @@ Mobile application built with Flutter that allows users to browse, order, and ed
 
 This project is not responsive to various mobile screen sizes; it is designed to fit best on a mobile device with dimensions close to (height: 781, width: 393).
 
+This project is a frontend-only application and does not include any backend functionality
+
 ## Screenshots & guide:
 
 - SignIn/SignUp Screen:

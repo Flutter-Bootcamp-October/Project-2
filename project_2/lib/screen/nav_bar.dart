@@ -17,6 +17,7 @@ class _NavBarState extends State<NavBar> {
   Widget build(BuildContext context) {
     return Scaffold(
         bottomNavigationBar: BottomNavigationBar(
+            selectedItemColor: const Color.fromRGBO(211, 84, 0, 1),
             currentIndex: select,
             onTap: (value) {
               select = value;
@@ -30,7 +31,10 @@ class _NavBarState extends State<NavBar> {
                   icon: ImageIcon(AssetImage("assets\\Group.png")),
                   label: 'Order'),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.person_sharp), label: 'Profile')
+                  icon: Icon(
+                    Icons.person_sharp,
+                  ),
+                  label: 'Profile')
             ]),
         body: screens[select]);
   }

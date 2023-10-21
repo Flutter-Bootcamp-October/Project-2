@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:project_2/widgets/filed_menu.dart';
 import 'package:project_2/widgets/food_container.dart';
 import 'package:project_2/widgets/menu_category.dart';
+import 'package:project_2/widgets/near_me.dart';
 
 class Order extends StatefulWidget {
   const Order({super.key});
@@ -20,6 +21,18 @@ class _OrderState extends State<Order> {
         child: Column(
           children: [
             const FiledMenu(hintext: 'Search'),
+            const Padding(
+              padding: EdgeInsets.only(top: 10, left: 20),
+              child: Row(
+                children: [
+                  Icon(Icons.location_on),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text('9 West 46 Th Street, New York City')
+                ],
+              ),
+            ),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Padding(
@@ -117,46 +130,14 @@ class _OrderState extends State<Order> {
             Expanded(
               child: ListView.builder(
                   shrinkWrap: true,
-                  itemCount: 5,
+                  itemCount: 8,
                   itemBuilder: (BuildContext, int index) {
-                    return ListTile(
-                        leading: Image.asset("assets\\Rectangle 6.png"),
-                        title: const Text("Daour Ijah Restaurant"),
-                        subtitle: Column(
-                          children: [
-                            const Row(
-                              children: [
-                                Icon(Icons.location_on),
-                                Text("13 th Street, 46 W 12th St,NY")
-                              ],
-                            ),
-                            const Row(
-                              children: [
-                                Icon(Icons.access_time_sharp),
-                                Text("3 min-1.1km")
-                              ],
-                            ),
-                            Row(
-                              children: _starsRepeat(),
-                            )
-                          ],
-                        ));
+                    return const NearMe();
                   }),
             )
           ],
         ),
       ),
     );
-  }
-
-  List<Icon> _starsRepeat() {
-    List<Icon> star = [];
-    for (var i = 0; i < 5; i++) {
-      star.add(const Icon(
-        Icons.star,
-        color: Color.fromARGB(255, 245, 222, 18),
-      ));
-    }
-    return star;
   }
 }

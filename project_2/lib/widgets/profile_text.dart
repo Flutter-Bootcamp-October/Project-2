@@ -12,7 +12,7 @@ class ProfileText extends StatelessWidget {
         children: [
           Text(laftText,
               style:
-                  const TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
+                  const TextStyle(fontWeight: FontWeight.w600, fontSize: 15)),
           const Icon(Icons.arrow_forward_ios_rounded)
         ],
       ),

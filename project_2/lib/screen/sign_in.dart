@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_2/methods/ap_bar.dart';
-import 'package:project_2/widgets/nav_bar.dart';
+import 'package:project_2/screen/nav_bar.dart';
 import 'package:project_2/widgets/button_in.dart';
 import 'package:project_2/widgets/facebook_google.dart';
 import 'package:project_2/widgets/tex_filed.dart';

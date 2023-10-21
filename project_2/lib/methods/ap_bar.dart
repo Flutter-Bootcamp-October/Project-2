@@ -5,5 +5,6 @@ AppBar apbar({required String title}) => AppBar(
       foregroundColor: Colors.black,
       shadowColor: Colors.white,
       centerTitle: true,
+      elevation: 0,
       title: Text(title),
     );

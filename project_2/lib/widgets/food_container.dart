@@ -14,33 +14,33 @@ class FoodContainr extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10),
-      child: Stack(
-        children: [
-          Container(
-            height: 130,
-            width: 130,
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20), color: color),
-          ),
-          Positioned(
-            top: 10,
-            left: 15,
-            child: Text(
-              name,
-              style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w700,
-                  color: Colors.white),
+      child: Container(
+        height: 130,
+        width: 130,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20), color: color),
+        child: Stack(
+          children: [
+            Positioned(
+              top: 10,
+              left: 15,
+              child: Text(
+                name,
+                style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white),
+              ),
             ),
-          ),
-          Positioned(
-            top: 30,
-            left: 15,
-            height: 120,
-            width: 120,
-            child: image,
-          )
-        ],
+            Positioned(
+              top: 30,
+              left: 15,
+              height: 120,
+              width: 120,
+              child: image,
+            )
+          ],
+        ),
       ),
     );
   }

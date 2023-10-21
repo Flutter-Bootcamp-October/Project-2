@@ -28,7 +28,7 @@ class _NavBarState extends State<NavBar> {
                   label: 'Home'),
               BottomNavigationBarItem(
                   icon: ImageIcon(AssetImage("assets\\Group.png")),
-                  label: 'Oder'),
+                  label: 'Order'),
               BottomNavigationBarItem(
                   icon: Icon(Icons.person_sharp), label: 'Profile')
             ]),

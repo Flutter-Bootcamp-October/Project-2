@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:project_2/methods/ap_bar.dart';
-import 'package:project_2/screen/order.dart';
-import 'package:project_2/screen/profile.dart';
 import 'package:project_2/widgets/button_in.dart';
 import 'package:project_2/widgets/food_review.dart';
-import 'package:project_2/widgets/nav_bar.dart';
+import 'package:project_2/screen/nav_bar.dart';
 
 class Review extends StatefulWidget {
   const Review({super.key});
@@ -12,9 +10,6 @@ class Review extends StatefulWidget {
   @override
   State<Review> createState() => _ReviewState();
 }
-
-int select = 0;
-List<Widget> screens = [const Profile(), const Order(), const Review()];
 
 class _ReviewState extends State<Review> {
   @override
@@ -27,16 +22,13 @@ class _ReviewState extends State<Review> {
             flex: 2,
             child: ListView.builder(
                 shrinkWrap: true,
-                itemCount: 5,
-                itemBuilder: (BuildContext, int index) {
-
+                itemCount: 4,
+                itemBuilder: (buildContext, int index) {
                   return const FoodReview();
                 }),
           ),
-          const SizedBox(
-            height: 100,
-          ),
-          //calling ButtonIn widget
+
+          //calling ButtonIn widget and
           ButtonIn(
             nameText: "Send",
             color: const Color.fromRGBO(211, 84, 0, 1),

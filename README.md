@@ -45,12 +45,20 @@ in lib folder there are :
 		it is in custom_sign_up.dart file in line 201 to 216.
 
 logo screen :
+
+
 ![logo screen](https://github.com/rahafwmaq/Project-2/assets/86989761/7373ba5f-bcef-4109-a3a6-1f93bd0e52f9)
 
+
 sign in screen : 
+
+
 ![Sign_in_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/bc5c1717-6bc6-4530-85a3-981c87fb8c7d)
 
+
 sign up screen : 
+
+
 ![Sign_up_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/af09a0c5-0aee-4f1b-9528-e26334c68661)
 
 
@@ -72,7 +80,11 @@ sign up screen :
 			- custom_text_restaurant_info.dart
 
 home screen :
+
+
 ![home1_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/d178ed93-c180-412a-b4e0-66b108e7a93b)
+
+
 
 ![home2_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/db6e407d-9a84-461a-a9c7-f917f4d19156)
 
@@ -96,6 +108,8 @@ home screen :
 			and use it in custom_order_review_food.dart file
 
 order screen :
+
+
 ![order_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/cef2f884-d781-416f-8a5a-f58cef16a237)
 
 
@@ -109,7 +123,9 @@ order screen :
 		- custom_profile_info.dart
 		- custom_profile_signout_buttom.dart
 
-profile screen
+profile screen :
+
+
 ![profile_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/9611ba78-f2f8-4245-b464-79e965d5cf50)
 
 

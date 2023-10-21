@@ -40,9 +40,7 @@ in lib folder there are :
 		- custom_sign_in.dart => sign in screen
 		- custom_sign_up.dart => sign up screen
 
-		note: I use the controller in custom_sign_in.dart file and custom_sign_up.dart file 
-		and i write code to check that if the controller will take the value that the user will enter
-		it is in custom_sign_up.dart file in line 201 to 216.
+note: I use the controller in custom_sign_in.dart file and custom_sign_up.dart file and i write code to check that if the controller will take the value that the user will enter it is in custom_sign_up.dart file in line 201 to 216.
 
 logo screen :
 
@@ -64,20 +62,20 @@ sign up screen :
 
 
 
-	- custom_home_widgets folder => for home screen
+- custom_home_widgets folder => for home screen
 
-		- custom_home_screen.dart
-		- custom_home_search_text_field.dart
-		- custom_home_location.dart
-		- custom_home_food_section.dart
-		- custom_home_food_menu folder
-			- custom_text_food_menu.dart
-			- custom_food_menu.dart
-		- custom_home_near_me folder
-			- custom_text_near_me.dart
-			- custom_near_me.dart
-			- custom_container_pic.dart
-			- custom_text_restaurant_info.dart
+	- custom_home_screen.dart
+	- custom_home_search_text_field.dart
+	- custom_home_location.dart
+	- custom_home_food_section.dart
+	- custom_home_food_menu folder
+		- custom_text_food_menu.dart
+		- custom_food_menu.dart
+	- custom_home_near_me folder
+		- custom_text_near_me.dart
+		- custom_near_me.dart
+		- custom_container_pic.dart
+		- custom_text_restaurant_info.dart
 
 home screen :
 
@@ -89,23 +87,20 @@ home screen :
 ![home2_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/db6e407d-9a84-461a-a9c7-f917f4d19156)
 
 
-	- custom_order_widgets folder => for order screen
+- custom_order_widgets folder => for order screen
 
-		- custom_order.screen.dart
-		- custom_order_appbar.dart
-		- custom_order_review_food.dart
-		- custom_order_info_widgets folder 
-			- custom_text_order_review_food
-			- custom_like_colored.dart
-			- custom_like_uncolored.dart
-			- custom_dislike_colored.dart
-			- custom_dislike_uncolored.dart
-		- custom_order_send_buttom.dart
+	- custom_order.screen.dart
+	- custom_order_appbar.dart
+	- custom_order_review_food.dart
+	- custom_order_info_widgets folder 
+		- custom_text_order_review_food
+		- custom_like_colored.dart
+		- custom_like_uncolored.dart
+		- custom_dislike_colored.dart
+		- custom_dislike_uncolored.dart
+	- custom_order_send_buttom.dart
 
-		note : I used custom_container_pic.dart file that located in 
-			lib\widgets\custom_home_widgets\custom_home_near_me
-			\custom_container_pic.dart
-			and use it in custom_order_review_food.dart file
+note : I used custom_container_pic.dart file that located in lib\widgets\custom_home_widgets\custom_home_near_me\custom_container_pic.dart and use it in custom_order_review_food.dart file
 
 order screen :
 
@@ -114,14 +109,14 @@ order screen :
 
 
 
-	- custom_profile_widgets folder => for profile screen
+- custom_profile_widgets folder => for profile screen
 
-		- custom_profile_screen.dart
-		- custom_profile_pic.dart
-		- custom_profile_name.dart
-		- custom_profile_phone_number.dart
-		- custom_profile_info.dart
-		- custom_profile_signout_buttom.dart
+	- custom_profile_screen.dart
+	- custom_profile_pic.dart
+	- custom_profile_name.dart
+	- custom_profile_phone_number.dart
+	- custom_profile_info.dart
+	- custom_profile_signout_buttom.dart
 
 profile screen :
 

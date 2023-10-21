@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:project_2/screen/order.dart';
+import 'package:project_2/screen/home.dart';
 import 'package:project_2/screen/profile.dart';
-import 'package:project_2/screen/review.dart';
+import 'package:project_2/screen/order.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});
@@ -12,7 +12,7 @@ class NavBar extends StatefulWidget {
 
 class _NavBarState extends State<NavBar> {
   int select = 0;
-  List<Widget> screens = [const Order(), const Review(), const Profile()];
+  List<Widget> screens = [const Home(), const Order(), const Profile()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

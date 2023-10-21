@@ -1,40 +1,54 @@
-# Project-2
+# Flutter Project README
 
-## Details:
+Welcome to our Flutter project! This README file provides an overview of the project structure and key components.
 
-1. Implement the given design in an app using Flutter.
-2. You must utilize the following widgets:
-   - Image
-   - AppBar
-   - TextField
-   - Row
-   - Column
-   - Icon
-   - Button
-   - ListView or other related widgets
-3. Provide navigation between the pages.
-   .
+## Project Structure
 
-## Design Link:
+- `lib/`: This directory contains the main Dart code for the project.
+  - `main.dart`: The entry point of the application.
+  - `screens/`: Contains Dart files for different screens of the app.
+  - `Baderlib/`: Custom widgets and components used throughout the app.
 
-<a href="https://www.figma.com/file/9X5260T0MpVWxSgGr1f43y/Food-Delivery---Mobile-App-Design-(Community)?type=design&node-id=0%3A1&mode=design&t=vsewM5c2BJ6UKdX7-1"> Figma Link</a>
+## Screens
 
-## Delivery Requirements:
+### Home
 
-1. **Project Structure:** Create a new Flutter project and organize its structure appropriately. Set up the necessary folders and files, and ensure a clean and organized project layout.
-2. **Clean Code**: Write clear and well-organized code. Use meaningful variable and function names, Well-structured and easily maintainable code.
+The `Home` screen displays a search bar, location information, and buttons for filtering content. It also showcases images in horizontal and vertical scrollable lists.
 
-## Submission:
+### Order
 
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
+The `Order` screen allows users to review their food orders and displays images in a vertical scrollable list.
 
-## Deadline:
+### Profile
 
-22/10/2023 9:59 AM
+The `Profile` screen displays user information, such as their name and phone number. Users can also sign in or sign up from this screen.
+
+## Custom Widgets
+
+### CustomTextField
+
+A custom text input field with optional icons.
+
+### ContrastText
+
+Styled text widget with a specific text color and size.
+
+### LogInButton
+
+A stylized button with customizable colors and an optional action when pressed.
+
+### Facebook
+
+A widget for displaying social media login options.
+
+### CustomButton
+
+A button with an icon and text, used for filtering content.
+
+### ImageContainer
+
+A container widget for displaying images with customizable colors.
+
+## Getting Started
+
+To run the app, ensure you have Flutter and Dart installed. Then, navigate to the project directory and run the following commands:

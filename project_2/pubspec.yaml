@@ -1,0 +1,34 @@
+name: project_2
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets\Ellipse.png
+    - assets\hamburger 1.png
+    - assets\image1.png
+    - assets\image3.png
+    - assets\image2.png
+    - assets\Rectangle 6.png
+    - assets\google-plus 1.png
+    - assets\facebook 1.png
+    - assets\Vector.png
+    - assets\potato-chips 1.png
+    - assets\piece-of-cake 1.png
+    - assets\coffee-cup 1.png
+    - assets\Group.png
+    - assets\store 1.png

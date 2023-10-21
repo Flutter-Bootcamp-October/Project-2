@@ -26,7 +26,7 @@
    
 ![SignUp](https://github.com/RubaAlHilal/Project-2/assets/73358612/5e2620be-11c8-4395-83df-c07ca55d3b49)
 
-    ------------------------------------------------------------------------------
+   ------------------------------------------------------------------------------
 7. Home Page:
    
    On the 'Home Page', the user can view the menu for restaurants. On this page, the user can scroll through the food category, Food Menu, and Near Me restaurants. Also, he can navigate to the page he needs such as 'Order Page', and  'Profile Page'.
@@ -35,7 +35,7 @@
    
    ![HomePage](https://github.com/RubaAlHilal/Project-2/assets/73358612/73ef3ee8-dc2a-46d9-9bc5-aea0adf2914f)
 
-    ------------------------------------------------------------------------------
+   ------------------------------------------------------------------------------
 9. Order Page:
     
     On the 'Order Page', the user can review the food he ordered. On this page, the user can scroll through the food order list. Also, he can navigate to the page he needs such as 'Order Page', and  'Profile Page'.
@@ -53,7 +53,7 @@
     
 ![ProfilePage](https://github.com/RubaAlHilal/Project-2/assets/73358612/78e12a4e-c404-4380-a7e4-06ca1c1dd77e)
 
-     ------------------------------------------------------------------------------
+   ------------------------------------------------------------------------------
 
    
 

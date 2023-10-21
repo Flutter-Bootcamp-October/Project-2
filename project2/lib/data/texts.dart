@@ -10,3 +10,12 @@ const List<String> menuRowText = [
   "Pizza",
   "BBQ",
 ];
+const List<String> profileTextList = [
+  "My Profile",
+  "Change Password",
+  "Payment Settings",
+  "My Voucher",
+  "Notification",
+  "About Us",
+  "Contact Us",
+];

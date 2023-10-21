@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 
-import '../../../data/colors.dart';
+import '../../../../data/colors.dart';
 
-class CustomTextField extends StatelessWidget {
-  const CustomTextField({
+class SearchTextField extends StatelessWidget {
+  const SearchTextField({
     super.key,
     required this.content,
   });
 
   final String content;
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -18,6 +17,10 @@ class CustomTextField extends StatelessWidget {
         style: const TextStyle(
             fontWeight: FontWeight.w400, color: Color(0x00000080)),
         decoration: InputDecoration(
+            prefixIcon: const Icon(
+              Icons.search_outlined,
+              color: Color(0xFF757778),
+            ),
             contentPadding:
                 const EdgeInsets.only(left: 30, top: 15, bottom: 15),
             fillColor: textFieldColor,

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project2/extentions/size_extention.dart';
 
-import '../../../data/colors.dart';
-
 class AuthButton extends StatelessWidget {
   const AuthButton({
     super.key,

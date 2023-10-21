@@ -1,36 +1,64 @@
-# Project-2
-## Details:
-1. Implement the given design in an app using Flutter.
-2. You must utilize the following widgets:
-   - Image
-   - AppBar
-   - TextField
-   - Row
-   - Column
-   - Icon
-   - Button
-   - ListView or other related widgets
-3. Provide navigation between the pages.
+This project is a user interface for ordering and purchasing food from our restaurant.
+
+## Description
+
+In this app you can view and navigate through different screens.
+Some preview images for main functions from the program:
+
+* To choose either to sign in or sign up:
+  
+![Screenshot_1697913555](https://github.com/AliArafat4/Project-2/assets/84300173/994880b9-35fb-4d3d-a422-cd0ff72e78b1)
+
+
+* To sign in:
+  
+![Screenshot_1697913563](https://github.com/AliArafat4/Project-2/assets/84300173/2fc74409-9c69-49f0-9c02-7319836ab638)
+
+
+* To sign up:
+  
+![Screenshot_1697913567](https://github.com/AliArafat4/Project-2/assets/84300173/f939818e-ba7d-4c69-93c5-faa4c0cce4d9)
+
+
+* Home screen:
+
+  
+![Screenshot_1697913581](https://github.com/AliArafat4/Project-2/assets/84300173/6100582a-f8e7-4ee8-9ec4-fe718ffeeddc)
+
+
+* Order screen:
+  
+![Screenshot_1697913584](https://github.com/AliArafat4/Project-2/assets/84300173/1b2fbcdc-179d-4125-9cd5-23183e54f634)
+
+
+* Profile screen:
+
+![Screenshot_1697913588](https://github.com/AliArafat4/Project-2/assets/84300173/f36c7d5b-2979-4f56-ad6c-b0565ec734e3)
+
+
+
+
+* have fun exploring the app :b
+
+## Getting Started
+
+### Dependencies
+
+* Anyone can use this app.
   
 
-## Design Link:
-<a href="https://www.figma.com/file/9X5260T0MpVWxSgGr1f43y/Food-Delivery---Mobile-App-Design-(Community)?type=design&node-id=0%3A1&mode=design&t=vsewM5c2BJ6UKdX7-1"> Figma Link</a>
+### Installing
 
-## Delivery Requirements:
-1. **Project Structure:** Create a new Flutter project and organize its structure appropriately. Set up the necessary folders and files, and ensure a clean and organized project layout.
-2. **Clean Code**: Write clear and well-organized code. Use meaningful variable and function names, Well-structured and easily maintainable code.
+* Clone the project, then run it in an IDE 
 
+### Executing program
 
-## Submission:
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
+* Use an IDE
 
 
-## Deadline: 
-22/10/2023  9:59 AM
+## Notes
+just have fun :D
+
+## Authors
+
+Me: Ali Arafat

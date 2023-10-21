@@ -1,4 +1,4 @@
-![Simulator Screenshot - iPhone 14 - 2023-10-22 at 01 32 48](https://github.com/lujain31/Project-2/assets/72625878/c7f42f65-4572-4551-864e-d801213b370b)# Food Delivery App
+# Food Delivery App
 ***
 Food Delivery App is a convenient and easy-to-use mobile app that allows customers to order a wide range of delicious dishes and meals from restaurants, cafes, all from the comfort of their home or office. With just a few taps on their smartphone, users can browse restaurants, choose their favorite category.
 

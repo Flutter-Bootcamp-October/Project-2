@@ -1,7 +1,6 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
-import 'package:project2/textStyle/textStyle.dart';
 
 PreferredSizeWidget appBarmethod(context, String? titleName) {
   return AppBar(
@@ -10,7 +9,8 @@ PreferredSizeWidget appBarmethod(context, String? titleName) {
       centerTitle: true,
       title: Text(
         titleName!,
-        style: TitleStyle(),
+        style: TextStyle(
+            fontSize: 18, fontWeight: FontWeight.w700, color: Colors.black),
       ),
       leading: GestureDetector(
         onTap: () => Navigator.pop(context),

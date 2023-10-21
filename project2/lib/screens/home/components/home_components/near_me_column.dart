@@ -16,6 +16,7 @@ class NearMeColumn extends StatelessWidget {
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
                 height: context.heightSize() * .2,
@@ -26,42 +27,52 @@ class NearMeColumn extends StatelessWidget {
                         "assets/images/Rectangle 6.png",
                       ),
                       fit: BoxFit.contain,
-                      alignment: AlignmentDirectional.centerStart),
+                      alignment: AlignmentDirectional.topStart),
                 ),
               ),
-              SizedBox(
-                width: context.widthSize() * .5,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    const Text(
-                      "Dapur Ijah Restaurant",
-                      style: TextStyle(
-                          fontFamily: "Poppins", fontWeight: FontWeight.w700),
-                    ),
-                    const SizedBox(
-                      height: 30,
-                      child: ListTile(
-                        leading: Icon(Icons.location_pin, size: 20),
-                        title: Text(
-                          "13 th Street, 46 W 12th St, NY",
-                          style: TextStyle(fontSize: 11),
+              Expanded(
+                child: Container(
+                  padding: const EdgeInsets.only(left: 16),
+                  width: context.widthSize() * .4,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        "Dapur Ijah Restaurant",
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: "Poppins",
+                            fontWeight: FontWeight.w700),
+                      ),
+                      const SizedBox(
+                        height: 25,
+                        child: ListTile(
+                          iconColor: Color(0xFF34495E),
+                          contentPadding: EdgeInsets.symmetric(horizontal: 0),
+                          horizontalTitleGap: 4,
+                          leading: Icon(Icons.location_pin, size: 20),
+                          title: Text(
+                            "13 th Street, 46 W 12th St, NY",
+                            style: TextStyle(
+                                fontSize: 12, color: Color(0xFF34495E)),
+                          ),
                         ),
                       ),
-                    ),
-                    const SizedBox(
-                      height: 45,
-                      child: ListTile(
-                        leading: Icon(Icons.watch_later_outlined, size: 20),
-                        title: Text(
-                          "3 min - 1.1 km",
-                          style: TextStyle(fontSize: 11),
+                      const SizedBox(
+                        height: 45,
+                        child: ListTile(
+                          iconColor: Color(0xFF34495E),
+                          contentPadding: EdgeInsets.symmetric(horizontal: 0),
+                          horizontalTitleGap: 4,
+                          leading: Icon(Icons.watch_later_outlined, size: 20),
+                          title: Text(
+                            "3 min - 1.1 km",
+                            style: TextStyle(
+                                fontSize: 12, color: Color(0xFF34495E)),
+                          ),
                         ),
                       ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 16.0),
-                      child: Row(
+                      Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
                             ...List.generate(
@@ -72,8 +83,8 @@ class NearMeColumn extends StatelessWidget {
                                       size: 18,
                                     ))
                           ]),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               )
             ],

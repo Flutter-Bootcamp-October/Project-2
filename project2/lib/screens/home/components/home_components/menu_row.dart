@@ -40,8 +40,9 @@ class MenuRow extends StatelessWidget {
                   ),
                   Positioned(
                     right: -24,
-                    bottom: -24,
+                    bottom: -30,
                     child: Image.asset(
+                      scale: 0.88,
                       menuImagesRow[index],
                       fit: BoxFit.cover,
                     ),

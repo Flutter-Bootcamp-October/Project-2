@@ -27,11 +27,15 @@ class OrderScreen extends StatelessWidget {
       body: const SingleChildScrollView(
         child: FoodReviewColumn(),
       ),
-      floatingActionButton: AuthButton(
-          textContent: "Send",
-          buttonColor: signInButtonColor,
-          textColor: signInTextColor,
-          func: () {}),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(bottom: 22.0),
+        child: AuthButton(
+            textContent: "Send",
+            buttonColor: signInButtonColor,
+            textColor: signInTextColor,
+            func: () {}),
+      ),
     );
   }
 }

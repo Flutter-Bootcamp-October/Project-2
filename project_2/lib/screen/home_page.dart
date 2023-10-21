@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           const Padding(
-            padding: EdgeInsets.only(top: 56),
+            padding: EdgeInsets.only(top: 40),
             child: FacebookGoogle(),
           ),
         ],

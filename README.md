@@ -1,36 +1,33 @@
-# Project-2
-## Details:
-1. Implement the given design in an app using Flutter.
-2. You must utilize the following widgets:
-   - Image
-   - AppBar
-   - TextField
-   - Row
-   - Column
-   - Icon
-   - Button
-   - ListView or other related widgets
-3. Provide navigation between the pages.
-  
+##Restaurant App:
 
-## Design Link:
-<a href="https://www.figma.com/file/9X5260T0MpVWxSgGr1f43y/Food-Delivery---Mobile-App-Design-(Community)?type=design&node-id=0%3A1&mode=design&t=vsewM5c2BJ6UKdX7-1"> Figma Link</a>
+Mobile application built with Flutter that allows users to browse, order, and edit profile from various restaurants.
 
-## Delivery Requirements:
-1. **Project Structure:** Create a new Flutter project and organize its structure appropriately. Set up the necessary folders and files, and ensure a clean and organized project layout.
-2. **Clean Code**: Write clear and well-organized code. Use meaningful variable and function names, Well-structured and easily maintainable code.
+##Note:
+
+This project is not responsive to various mobile screen sizes; it is designed to fit best on a mobile device with dimensions close to (height: 781, width: 393).
+
+##Screenshots & guide:
+
+- SignInUp screen:
+![image](https://github.com/LMogdad/Project-2/assets/87881470/5d8d67cf-963c-42ba-85a5-19143cccf26e)
+
+- SignIn screen:
+![image](https://github.com/LMogdad/Project-2/assets/87881470/3dc1e01b-ac42-4278-bbea-c945db0552c5)
 
 
-## Submission:
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
+- SignUp screen:
+![image](https://github.com/LMogdad/Project-2/assets/87881470/c8317879-1ffe-4720-ae58-bd495e909775)
+
+- Home screen:
+![Uploading image.png…]()
 
 
-## Deadline: 
-22/10/2023  9:59 AM
+- Order screen:
+![Uploading image.png…]()
+
+
+- Profile screen:
+  ![Uploading image.png…]()
+
+
+##

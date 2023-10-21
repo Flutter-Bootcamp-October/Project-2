@@ -44,8 +44,17 @@ in lib folder there are :
 		and i write code to check that if the controller will take the value that the user will enter
 		it is in custom_sign_up.dart file in line 201 to 216.
 
+logo screen :
+![logo screen](https://github.com/rahafwmaq/Project-2/assets/86989761/7373ba5f-bcef-4109-a3a6-1f93bd0e52f9)
 
-3 pic
+sign in screen : 
+![Sign_in_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/bc5c1717-6bc6-4530-85a3-981c87fb8c7d)
+
+sign up screen : 
+![Sign_up_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/af09a0c5-0aee-4f1b-9528-e26334c68661)
+
+
+
 
 	- custom_home_widgets folder => for home screen
 
@@ -62,7 +71,10 @@ in lib folder there are :
 			- custom_container_pic.dart
 			- custom_text_restaurant_info.dart
 
-1pic
+home screen :
+![home1_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/d178ed93-c180-412a-b4e0-66b108e7a93b)
+
+![home2_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/db6e407d-9a84-461a-a9c7-f917f4d19156)
 
 
 	- custom_order_widgets folder => for order screen
@@ -83,8 +95,9 @@ in lib folder there are :
 			\custom_container_pic.dart
 			and use it in custom_order_review_food.dart file
 
+order screen :
+![order_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/cef2f884-d781-416f-8a5a-f58cef16a237)
 
-1 pic
 
 
 	- custom_profile_widgets folder => for profile screen
@@ -95,7 +108,9 @@ in lib folder there are :
 		- custom_profile_phone_number.dart
 		- custom_profile_info.dart
 		- custom_profile_signout_buttom.dart
-1 pic
+
+profile screen
+![profile_screen](https://github.com/rahafwmaq/Project-2/assets/86989761/9611ba78-f2f8-4245-b464-79e965d5cf50)
 
 
 4. main.dart => is the main calling logo screen.

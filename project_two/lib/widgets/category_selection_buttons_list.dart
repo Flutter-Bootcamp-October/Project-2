@@ -32,16 +32,6 @@ class _CategoryButtonsListState extends State<CategoryButtonsList> {
 
   @override
   Widget build(BuildContext context) {
-    // ToggleButtons(
-    //     selectedColor: buttonColorSelected,
-    //     disabledColor: buttonColor,
-    //     isSelected: myIsSelected,
-    //     children: allButtons,
-    //     onPressed: (int index) {
-    //       setState(() {
-    //         myIsSelected[index] = !myIsSelected[index];
-    //       });
-    //     });
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(

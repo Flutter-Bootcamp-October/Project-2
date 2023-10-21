@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_two/extentions.dart';
 
+// ignore: must_be_immutable
 class CategoryButton extends StatefulWidget {
   const CategoryButton({super.key, required this.iconPath});
   final String iconPath;
@@ -14,6 +15,7 @@ class _CategoryButtonState extends State<CategoryButton> {
   Color buttonColor = const Color(0xFFECF0F1);
   Color iconColorSelected = Colors.white;
   Color buttonColorSelected = const Color(0xFFD35400);
+
   @override
   Widget build(BuildContext context) {
     return Padding(

@@ -70,7 +70,7 @@ class SignUpScreen extends StatelessWidget {
               TextButton(
                   onPressed: () {},
                   child: const Align(
-                      alignment: Alignment.bottomRight,
+                      alignment: Alignment(0.9, 1.0),
                       child: Text("Forgot password?"))),
               const SizedBox(height: 110),
               const ScaffoldBottom()

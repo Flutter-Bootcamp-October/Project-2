@@ -6,28 +6,28 @@ class ScaffoldBottom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(children: [
-                Row(
-            children: [
-              Image.asset('lib/assets/icons/line.png'),
-              const Padding(
-                padding: EdgeInsets.only(left: 4.0),
-                child: Text("Or connect with"),
-              ),
-            ],
+      Row(
+        children: [
+          Image.asset('lib/assets/icons/line.png'),
+          const Padding(
+            padding: EdgeInsets.only(left: 4.0),
+            child: Text("Or connect with"),
           ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Image.asset('lib/assets/icons/facebook.png'),
-                ),
-                Image.asset('lib/assets/icons/google_plus.png')
-              ],
+        ],
+      ),
+      Padding(
+        padding: const EdgeInsets.only(right: 20.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Image.asset('lib/assets/icons/facebook.png'),
             ),
-          )
-        ]);
+            Image.asset('lib/assets/icons/google_plus.png')
+          ],
+        ),
+      )
+    ]);
   }
 }

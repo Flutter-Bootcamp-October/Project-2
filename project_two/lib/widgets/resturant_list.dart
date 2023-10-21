@@ -6,30 +6,6 @@ class ResturantList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              children: [
-                Image.asset('lib/assets/images/resturant.png'),
-                const ResturantInfo()
-              ],
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              children: [
-                Image.asset('lib/assets/images/resturant.png'),
-                const ResturantInfo()
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
+    return const Column(children: [ResturantInfo(), ResturantInfo()]);
   }
 }

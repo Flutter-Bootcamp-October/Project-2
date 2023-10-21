@@ -13,10 +13,9 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
-        scrollDirection: Axis.vertical,
         child: Center(
-            child: SafeArea(
-                child: Column(children: [
+            child: Column(children: [
+          const SizedBox(height: 50),
           const MySearchBar(),
           Padding(
             padding:
@@ -73,7 +72,6 @@ class HomeScreen extends StatelessWidget {
                         fontSize: 18),
                   ),
                   Text(
-                    //make clickable?
                     "View All",
                     style: TextStyle(
                         fontFamily: 'Roboto',
@@ -82,9 +80,8 @@ class HomeScreen extends StatelessWidget {
                   )
                 ]),
           ),
-          // const Resturant(),
           const ResturantList()
-        ]))),
+        ])),
       ),
     );
   }

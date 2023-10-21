@@ -1,36 +1,103 @@
-# Project-2
+# Project-2 
+# project_food_app_flutter
 ## Details:
-1. Implement the given design in an app using Flutter.
-2. You must utilize the following widgets:
-   - Image
-   - AppBar
-   - TextField
-   - Row
-   - Column
-   - Icon
-   - Button
-   - ListView or other related widgets
-3. Provide navigation between the pages.
-  
+I have create 6 screens :
 
-## Design Link:
-<a href="https://www.figma.com/file/9X5260T0MpVWxSgGr1f43y/Food-Delivery---Mobile-App-Design-(Community)?type=design&node-id=0%3A1&mode=design&t=vsewM5c2BJ6UKdX7-1"> Figma Link</a>
+1. logo screen
+2. sign in screen
+3. sign up screen
+4. home screen
+5. order screen
+6. profile screen
 
-## Delivery Requirements:
-1. **Project Structure:** Create a new Flutter project and organize its structure appropriately. Set up the necessary folders and files, and ensure a clean and organized project layout.
-2. **Clean Code**: Write clear and well-organized code. Use meaningful variable and function names, Well-structured and easily maintainable code.
+All contents will be explained sequentially , So you better follow it
+
+in lib folder there are :
+
+1. extensions folder :
+	- get_color.dart : it is contain a method helps while the user click an elevated buttom the color will change.
+
+2. screens folder : these files contain Scaffold widgets and calling the custom widgets that I have build.
+	- logo.dart
+	- sign_in.dart
+	- sign_up.dart
+	- home.dart
+	- order.dart
+	- profile.dart
+	- nav_bar.dart => contain list with  home screen , order screen and profile screen
+
+3. widgets folder : in this folder it is contain the customs widget for each screen
+
+ 
+
+	- custom_sign_in_up_widgets folder => for logo , sign in and sign up screen
+		
+		- logo_screen.dart => logo screen 
+		- custom_logo_pic.dart
+		- custom_choose_sign_in_up.dart => logo screen
+		- custom_sign_in_up_appbar.dart  => sign in and sign up screens
+		- custom_connect_with.dart => sign in and sign up screens
+		- custom_sign_in.dart => sign in screen
+		- custom_sign_up.dart => sign up screen
+
+		note: I use the controller in custom_sign_in.dart file and custom_sign_up.dart file 
+		and i write code to check that if the controller will take the value that the user will enter
+		it is in custom_sign_up.dart file in line 201 to 216.
 
 
-## Submission:
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
+3 pic
+
+	- custom_home_widgets folder => for home screen
+
+		- custom_home_screen.dart
+		- custom_home_search_text_field.dart
+		- custom_home_location.dart
+		- custom_home_food_section.dart
+		- custom_home_food_menu folder
+			- custom_text_food_menu.dart
+			- custom_food_menu.dart
+		- custom_home_near_me folder
+			- custom_text_near_me.dart
+			- custom_near_me.dart
+			- custom_container_pic.dart
+			- custom_text_restaurant_info.dart
+
+1pic
 
 
-## Deadline: 
-22/10/2023  9:59 AM
+	- custom_order_widgets folder => for order screen
+
+		- custom_order.screen.dart
+		- custom_order_appbar.dart
+		- custom_order_review_food.dart
+		- custom_order_info_widgets folder 
+			- custom_text_order_review_food
+			- custom_like_colored.dart
+			- custom_like_uncolored.dart
+			- custom_dislike_colored.dart
+			- custom_dislike_uncolored.dart
+		- custom_order_send_buttom.dart
+
+		note : I used custom_container_pic.dart file that located in 
+			lib\widgets\custom_home_widgets\custom_home_near_me
+			\custom_container_pic.dart
+			and use it in custom_order_review_food.dart file
+
+
+1 pic
+
+
+	- custom_profile_widgets folder => for profile screen
+
+		- custom_profile_screen.dart
+		- custom_profile_pic.dart
+		- custom_profile_name.dart
+		- custom_profile_phone_number.dart
+		- custom_profile_info.dart
+		- custom_profile_signout_buttom.dart
+1 pic
+
+
+4. main.dart => is the main calling logo screen.
+
+5. customicons.dart => is the icons that i have donwnloaded for Navigation Bar.

@@ -1,36 +1,29 @@
 # Project-2
 ## Details:
-1. Implement the given design in an app using Flutter.
-2. You must utilize the following widgets:
-   - Image
-   - AppBar
-   - TextField
-   - Row
-   - Column
-   - Icon
-   - Button
-   - ListView or other related widgets
-3. Provide navigation between the pages.
-  
 
-## Design Link:
-<a href="https://www.figma.com/file/9X5260T0MpVWxSgGr1f43y/Food-Delivery---Mobile-App-Design-(Community)?type=design&node-id=0%3A1&mode=design&t=vsewM5c2BJ6UKdX7-1"> Figma Link</a>
+### welcome screen
 
-## Delivery Requirements:
-1. **Project Structure:** Create a new Flutter project and organize its structure appropriately. Set up the necessary folders and files, and ensure a clean and organized project layout.
-2. **Clean Code**: Write clear and well-organized code. Use meaningful variable and function names, Well-structured and easily maintainable code.
+![Simulator Screen Shot - iPhone 14 Pro - 2023-10-22 at 01 20 26](https://github.com/juman-m/Project-2/assets/78266559/d74b40cd-8004-4fab-8e79-d3154538d800)
 
 
-## Submission:
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
+### SignIn
+![Simulator Screen Shot - iPhone 14 Pro - 2023-10-22 at 01 20 28](https://github.com/juman-m/Project-2/assets/78266559/96490182-1e4c-462f-8f55-f3ed7ea0df14)
 
 
-## Deadline: 
-22/10/2023  9:59 AM
+### SignUp
+![Simulator Screen Shot - iPhone 14 Pro - 2023-10-22 at 01 20 31](https://github.com/juman-m/Project-2/assets/78266559/86e0cc5f-633a-419e-84e6-582cce3607f6)
+
+### HomeScreen
+![Simulator Screen Shot - iPhone 14 Pro - 2023-10-22 at 01 20 33](https://github.com/juman-m/Project-2/assets/78266559/d2ef273b-6ec8-46c8-a8cf-2d5adf0fab35)
+
+
+### OrderScreen
+![Simulator Screen Shot - iPhone 14 Pro - 2023-10-22 at 01 20 35](https://github.com/juman-m/Project-2/assets/78266559/9e36727f-3f82-4875-8ea8-3aca546bc745)
+
+
+### ProfileScreen
+![Simulator Screen Shot - iPhone 14 Pro - 2023-10-22 at 01 20 37](https://github.com/juman-m/Project-2/assets/78266559/db12cf48-1946-4797-8da1-c6eeb121078f)
+
+
+
+

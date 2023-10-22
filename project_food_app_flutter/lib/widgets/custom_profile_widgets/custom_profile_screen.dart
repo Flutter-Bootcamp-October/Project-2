@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:project_food_app_flutter/widgets/custom_profile_widget/custom_profile_info.dart';
-import 'package:project_food_app_flutter/widgets/custom_profile_widget/custom_profile_name.dart';
-import 'package:project_food_app_flutter/widgets/custom_profile_widget/custom_profile_phone_number.dart';
-import 'package:project_food_app_flutter/widgets/custom_profile_widget/custom_profile_pic.dart';
-import 'package:project_food_app_flutter/widgets/custom_profile_widget/custom_profile_signout_buttom.dart';
+import 'package:project_food_app_flutter/widgets/custom_profile_widgets/custom_profile_info.dart';
+import 'package:project_food_app_flutter/widgets/custom_profile_widgets/custom_profile_name.dart';
+import 'package:project_food_app_flutter/widgets/custom_profile_widgets/custom_profile_phone_number.dart';
+import 'package:project_food_app_flutter/widgets/custom_profile_widgets/custom_profile_pic.dart';
+import 'package:project_food_app_flutter/widgets/custom_profile_widgets/custom_profile_signout_buttom.dart';
 
 class CustomProfileScreen extends StatefulWidget {
   const CustomProfileScreen({super.key});
